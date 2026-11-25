@@ -34,12 +34,9 @@ window.addEventListener("scroll", () => requestAnimationFrame(majFlou), { passiv
 majFlou();
 
 
-gsap.registerPlugin(ScrollTrigger);
-
 const container = document.querySelector('.body__steps');
 const steps = gsap.utils.toArray('.step');
 
-// une seule timeline, un fondu entre chaque paire de sections
 const tl = gsap.timeline({
   defaults: { ease: 'none' },
   scrollTrigger: {
