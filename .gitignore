@@ -1,0 +1,5 @@
+node_modules/
+frontend/dist/
+config.php
+data/
+.DS_Store
